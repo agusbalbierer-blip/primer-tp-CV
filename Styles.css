@@ -1,0 +1,62 @@
+*{
+    font-family: "Fira Sans", sans-serif;
+    background-color:rgb(199, 196, 195);
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Fira Sans", sans-serif;
+    color: aliceblue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+main {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.perfil {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.nombre {
+    font-size: 30px;
+    color: rgb(0, 211, 0);
+}
+
+.nombre h1 {
+    font-weight: 100;
+    color: aliceblue;
+    color: rgb(0, 211, 0);
+}
+
+.nombre h2 {
+    font-weight: 100;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 2%;
+
+}
+
+.perfil{
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+.divisor {
+height: 1px;
+background-color: rgb(235, 235, 235);
+margin: 0.1px;
+}
