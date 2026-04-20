@@ -1,19 +1,56 @@
-*{
-    font-family: "Fira Sans", sans-serif;
-    background-color:rgb(199, 196, 195);
+* {
+    font-family: "IBM plex", sans-serif;
+    background-color: rgb(199, 196, 195);
     background-color: rgb(22, 22, 22);
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "IBM plex", sans-serif;
     color: aliceblue;
+}
+
+.contacto-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid #444;
+    margin: 32px 0 16px 0;
+    width: 100%;
+    min-width: 600px;
+    max-width: 900px;
+}
+
+.contacto-item {
+    padding: 16px 12px 8px 12px;
+    color: #00ff00;
+    background: #111;
+    min-width: 0;
+    overflow-wrap: break-word;
+    border-right: 1px solid #444;
+}
+
+.contacto-item:last-child {
+    border-right: none;
+}
+
+.contacto-label {
+    display: block;
+    font-size: 0.8em;
+    color: #b6b6b6;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+}
+
+.contacto-valor a {
+    color: #00ff00;
+    text-decoration: none;
+    word-break: break-all;
 }
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 main {
@@ -25,7 +62,6 @@ main {
 }
 
 .perfil {
-    background-color: aquamarine;
     margin: 0;
     padding: 0;
     box-sizing: content-box;
@@ -40,6 +76,7 @@ main {
     font-weight: 100;
     color: aliceblue;
     color: rgb(0, 211, 0);
+    text-align: center;
 }
 
 .nombre h2 {
@@ -47,16 +84,17 @@ main {
     color: aliceblue;
     font-size: 30px;
     margin-bottom: 2%;
+    text-align: center;
 
 }
 
-.perfil{
-    font-size: 18px;
-    line-height: 2rem;
+.perfil {
+    font-size: 22px;
+    line-height: 1.4rem;
 }
 
 .divisor {
-height: 1px;
-background-color: rgb(235, 235, 235);
-margin: 0.1px;
+    height: 1px;
+    background-color: rgb(235, 235, 235);
+    margin: 0.1px;
 }
