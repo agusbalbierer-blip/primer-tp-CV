@@ -1,16 +1,34 @@
-# TP_1 — Portfolio
+# TP_3 — Portfolio
 
-Proyecto estático con HTML, CSS y assets.
+## 📌 Descripción
+Este proyecto consiste en el desarrollo de un portfolio en formato web. El objetivo principal fue crear una presentación moderna, accesible y visualmente atractiva de la información profesional, utilizando tecnologías de desarrollo web.
 
-Instrucciones para subir a GitHub:
+El portfolio está diseñado para ser claro, organizado y adaptable, permitiendo una fácil navegación por las distintas secciones como experiencia, educación, habilidades y datos de contacto.
 
-1. Crea un nuevo repositorio en GitHub (sin README ni .gitignore si quieres usar los locales).
-2. En este equipo, dentro de la carpeta del proyecto ejecuta:
+---
 
-```bash
-cd "e:/Agus/Diseño y comunicacion visual/Computacion III/2026/TP_1"
-git remote add origin https://github.com/<usuario>/<repositorio>.git
-git push -u origin main
-```
+## 💻 Entorno de desarrollo
 
-Si Git te pide usuario/contraseña, usa un Personal Access Token (PAT) como contraseña o configura `gh auth login`.
+- **Resolución de pantalla utilizada:** 1920x1080  
+- **Editor de código:** Visual Studio Code  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+- HTML5  
+- CSS3  
+- JavaScript (galeria)
+
+---
+
+## 🎯 Objetivo del proyecto
+Desarrollar un portfolio digital que reemplace o complemente el formato tradicional en otras web tratando de univficar y mejorando la presentación profesional y facilitando su distribución online.
+
+---
+
+## 📂 Estructura del proyecto
+
+/proyecto-porfolio
+│── index.html
+│── styles.css
+│── assets/
