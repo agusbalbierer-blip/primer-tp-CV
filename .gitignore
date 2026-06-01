@@ -1,0 +1,21 @@
+# Ignore node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Environment files
+.env
+
+# Ignore npm package-lock if not needed
+package-lock.json
+
+e2e/
